@@ -3,7 +3,7 @@
 This repository contains all the Data Structures & Algorithms (DSA), LeetCode, and Competitive Programming problems that I solve using Python.
 I use this space to regularly practice and improve my programming skills.
 
-# 🎯 Why I Practice
+## 🎯 Why I Practice
 
 To improve problem-solving skills
 
@@ -13,6 +13,6 @@ To write clean and efficient code
 
 To prepare for coding interviews
 
-# 🛠 Language Used
+## 🛠 Language Used
 
-# Python 3
+Python 3
