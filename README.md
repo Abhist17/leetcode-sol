@@ -1,17 +1,19 @@
-DSA & LeetCode Practice (Python)
+# 📘 DSA & LeetCode Practice (Python)
 
-This repository contains all the DSA, LeetCode, and competitive programming questions I solve in Python.
+# This repository contains all the Data Structures & Algorithms (DSA), LeetCode, and Competitive Programming problems that I solve using Python.
 
-I am practicing these problems to:
+# I use this space to regularly practice and improve my programming skills.
 
-Improve my coding skills
+## 🎯 Why I Practice
 
-Get better at problem solving
+# To improve problem-solving skills
 
-Understand data structures and algorithms clearly
+# To understand DSA concepts clearly
 
-Prepare for interviews
+# To write clean and efficient code
 
-I try to solve questions regularly and keep learning.
+# To prepare for coding interviews
 
-Language used: Python 🐍
+# 🛠 Language Used
+
+# Python 3
