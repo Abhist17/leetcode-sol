@@ -1,31 +1,25 @@
-from collections import Counter
-
-from typing import List
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
-        count = Counter(nums)
+        cnt = Counter(nums)
+        ans = 1
 
-        ans = 0
-
-        for x in count:
+        for x in cnt:
             if x == 1:
-                ans = max(ans, count[x] if count[x] % 2 else count[x] - 1)
+                ans = max(ans, cnt[x] if cnt[x] % 2 else cnt[x] - 1)
                 continue
+
             length = 0
+            cur = x
 
-            y = x
-
-            while count[y] >= 2:
+            while cnt[cur] >= 2:
                 length += 2
-                y *= y
+                cur *= cur
 
-                if y not in count:
-                    break
-            if y in count:
+            if cnt[cur] >= 1:
                 length += 1
             else:
                 length -= 1
-            
+
             ans = max(ans, length)
+
         return ans
-        
